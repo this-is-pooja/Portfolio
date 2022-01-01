@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Divider, Spacer, Menu, IconButton, Link, MenuButton, MenuItem, MenuList, Button } from "@chakra-ui/react";
+import { Box, Flex, HStack, Divider, Spacer, Menu, IconButton, Link, MenuButton, MenuItem, MenuList, } from "@chakra-ui/react";
 import { FiMenu } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -7,10 +7,11 @@ import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
 	const icon = { color: "#5E5E5E", fontSize: "1.2rem" };
+
 	return (
 		<>
 			<Flex p="1.2rem" align="center" w="100%">
-				<Box fontSize="2.4rem" fontFamily='Libre Baskerville'>
+				<Box fontSize={{sm:"1.2rem",md:"1.6rem"}}>
 					POOJA SOLIWAL
 				</Box>
 				<Spacer />
@@ -29,9 +30,9 @@ function Navbar() {
 				</Box>
 				<Spacer />
 				<HashLink to="#work">
-					<Button fontSize="1rem" border="solid 1px #008000" color="green" mr="2rem">
+					<Box fontSize="md"  color="#4A4A4A" mr="2rem"textDecoration="underline"textDecorationColor="green"display={{ sm: "none", md: "block", lg: "block", xl: "block" }}>
 						WORK
-					</Button>
+					</Box>
 				</HashLink>
 				<HStack display={{ sm: "block", lg: "none", md: "none", xl: "none" }}>
 					<Menu>
@@ -44,7 +45,7 @@ function Navbar() {
 						<MenuList>
 							<MenuItem align="center">
 								<HashLink to="#work">
-									<Box as="button" fontSize="xs" color="lblack">
+									<Box as="button" fontSize="md" color="lblack">
 										WORK
 									</Box>
 								</HashLink>
