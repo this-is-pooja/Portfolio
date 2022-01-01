@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Adamina&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Pushster&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans";
+}
+@media screen and (max-width: 500px) {
+ 
+  .mediaQuery{
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 501px ) {
+
+  .mediaQuery{
+    font-size: 3rem;
+  }
 }
