@@ -13,7 +13,7 @@ function About() {
     const icon = { fontSize: "3.5rem", color: "#5E5E5E" };
     return (
         <>
-            <Center color="black" fontSize="2.6rem" fontStyle="sec" fontWeight="bold" mt="8rem"id="about">
+            <Center color="#4A4A4A" fontSize={{sm:"2rem",md:"2.6rem"}} fontStyle="sec" fontWeight="bold" mt="8rem"id="about">
                 KNOW MORE
             </Center>
             <Box display={{ sm: "none", md: "none", lg: "none", xl: "block" }}id="about">
