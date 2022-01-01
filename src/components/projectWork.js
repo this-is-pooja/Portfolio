@@ -9,7 +9,7 @@ import QuotesAnimation from "../Lotttie/82073-testimonials-icon.json";
 import CoderAnimation from "../Lotttie/89113-coder.json";
 
 function projectWork() {
-    const style = { width: "14rem", height: "14rem", textAlign: "center", borderRadius: "4rem", color: "white", border: "solid 1px #008000" };
+    const style = { width: "14rem", height: "14rem", textAlign: "center", borderRadius: "1rem", color: "white", border: "solid 1px #008000" };
     const Ecommerce = {
         loop: true,
         autoplay: true,
@@ -60,7 +60,7 @@ function projectWork() {
     };
     return (
         <>
-            <Center color="black" fontSize="2.6rem" fontWeight="bold" mb="4rem" textAlign="center" id="work">
+            <Center color="#4A4A4A" fontSize={{sm:"2rem",md:"2.6rem"}}  fontWeight="bold" mb="4rem" textAlign="center" id="work">
                 WORK EXPERIENCE
             </Center>
             <Box display={{ sm: "none", md: "none", lg: "none", xl: "block" }} id="work">
