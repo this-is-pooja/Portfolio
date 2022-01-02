@@ -19,13 +19,13 @@ function About() {
             <Box display={{ sm: "none", md: "none", lg: "none", xl: "block" }}id="about">
                 <HStack spacing={36} m="5rem">
                     <Box h="15rem" w="100%">
-                        <Text fontSize="1.8rem" fontWeight="bold">Who am I ?</Text>
+                        <Text fontSize="1.8rem" fontWeight="bold"color="#4A4A4A">Who am I ?</Text>
                         <Text mt="3rem"color="lblack">
                             I'm a BCA Graduate from Kumaun university Nainital,Uttrakhand. and I have done my Intermediate & Highschool from U.K board.
                         </Text>
                     </Box>
                     <Box h="15rem" w="100%">
-                        <Text fontSize="1.8rem" fontWeight="bold">Technologies I use</Text>
+                        <Text fontSize="1.8rem" fontWeight="bold"color="#4A4A4A">Technologies I use</Text>
                         <HStack mt="1rem" spacing={4}>
                             <SiNextdotjs fontSize="4rem" color="#5E5E5E" />
                             <GrReactjs style={icon} />
@@ -33,7 +33,7 @@ function About() {
                         </HStack>
                     </Box>
                     <Box h="15rem" w="100%">
-                        <Text fontSize="1.8rem" fontWeight="bold">Tools I use</Text>
+                        <Text fontSize="1.8rem" fontWeight="bold"color="#4A4A4A">Tools I use</Text>
                         <HStack mt="3rem" spacing={4}>
                             <FaFigma style={icon} />
                             <SiGit style={icon} />
@@ -41,7 +41,7 @@ function About() {
                         </HStack>
                     </Box>
                     <Box h="15rem" w="100%">
-                        <Text fontSize="1.8rem" fontWeight="bold">Styling libraries</Text>
+                        <Text fontSize="1.8rem" fontWeight="bold"color="#4A4A4A">Styling libraries</Text>
                         <HStack mt="3rem" ml="1rem" spacing={4}>
                             <SiMaterialui style={icon} />
                             <SiChakraui style={icon} />
