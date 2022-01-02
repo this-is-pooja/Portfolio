@@ -92,7 +92,7 @@ function projectWork() {
                             <Text color="black" mt="0.6rem">Music Application</Text>
                         </Box>
                     </Link>
-                    <Link href="https://react-weather-app-2yvzgfbe3-this-is-pooja.vercel.app/" isExternal>
+                    <Link href="https://react-weather-app-delta.vercel.app/" isExternal>
                         <Box style={style}>
                             <Lottie
                                 options={Weather}
