@@ -33,7 +33,7 @@ function App() {
           </span>
         </h1>
         <Center mb="8rem">
-          <Link to="/Pooja-Soliwal-Resume.pdf" target="_blank" download>
+          <Link to="/Pooja-Soliwal_CV.pdf" target="_blank" download>
             <Button style={cv}>Download CV</Button>
           </Link>
           <HashLink to="#about">
